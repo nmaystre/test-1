@@ -1,0 +1,22 @@
+.filter-btn {
+  padding: 6px 16px 8px;
+  background-color: $primary;
+  border-radius: 20px;
+}
+
+.filter-active {
+  position: relative;
+  padding-right: $gap-m;
+  text-decoration: none;
+  color: $black;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+
+  &::before {
+    content: ">";
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.section {
+  min-width: 320px;
+  width: 100%;
+  padding-left: $gap-l;
+  padding-right: $gap-l;
+  box-sizing: border-box;
+  margin: $gap-m 0 $gap-xl;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

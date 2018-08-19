@@ -1,0 +1,31 @@
+.slider {
+  display: flex;
+  margin-top: $gap-l;
+
+  &--m {
+    min-height: 120px;
+  }
+
+  &--s {
+    min-height: 100px;
+  }
+}
+
+.slider__block {
+  background-color: $gray-lightest;
+  border-radius: 20px;
+  padding: $gap-m;
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+
+  & + & {
+    margin-left: 20px;
+  }
+}
+
+.slider__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

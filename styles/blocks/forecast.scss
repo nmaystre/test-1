@@ -1,0 +1,17 @@
+.forecast{
+  display: flex;
+  margin: $gap-m 0 0;
+}
+
+.forecast__block {
+
+  & + & {
+    margin-left: $gap-l;
+  }
+}
+
+.forecast__text {
+  margin: 5px 0;
+  font-size: 24px;
+  font-weight: 700;
+}

@@ -1,0 +1,33 @@
+.footer {
+  color: $gray;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  width: 100%;
+  padding-left: $gap-l;
+  padding-right: $gap-l;
+  box-sizing: border-box;
+  margin: 0 0 $gap-xl;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer__nav-item {
+  width: 50%;
+}
+
+.footer__nav-link {
+  margin-right: 5px;
+  letter-spacing: 0.01px;
+}

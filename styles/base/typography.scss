@@ -1,0 +1,27 @@
+.heading {
+  color: $gray-dark;
+  font-weight: 700;
+
+  &--l {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  &--m {
+    font-size: 14px;
+    margin: 3px 0;
+  }
+}
+
+.text {
+  margin: 0;
+  font-size: 12px;
+
+  &--dark {
+    color: $gray-dark;
+  }
+
+  &--light {
+    color: $gray;
+  }
+}

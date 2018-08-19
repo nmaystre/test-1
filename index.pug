@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  title
+  meta(name="description" content="")
+  link(rel="stylesheet" href="css/main.css")
+
+  body
+    header.header
+      div.header__inner
+        a.header__logo
+          img.header__logo-pic(width="98" height="39" alt="Яндекс Дом")
+        a.header__btn
+          span.visually-hidden Открыть меню
+        nav.header__menu.menu
+          ul.menu__list
+            li.menu__item
+              a.menu__link Сводка
+            li.menu__item
+              a.menu__link Устройства
+            li.menu__item
+              a.menu__link Сценарии
+
+    main
+      section.welcome.section
+        div.welcome__inner
+          h2.heading.heading--l Привет,
+            span.welcome__user Геннадий!
+          p.text.text--dark Двери и&nbsp;окна закрыты, сигнализация включена.
+          div.forecast
+            div.forecast__block
+              p.forecast__location.text.text--light Дома
+              p.forecast__text +23
+            div.forecast__block
+              p.forecast__location.text.text--light За окном
+              p.forecast__text.forecast__text--rain +19
+          div.slider.slider--m
+            div.slider__block
+              div.slider__inner.slider__inner--temp.slider__inner--off
+                p.heading.heading--m Philips Cooler
+                p.text.text--light Начнет охлаждать в&nbsp;16:30
+            div.slider__block
+              div.slider__inner.slider__inner--light.slider__inner--off
+                p.heading.heading--m Xiaomi Yeelight LED Smart Bulb
+                p.text.text--light Включится в&nbsp;17:00
+            div.slider__block
+              div.slider__inner.slider__inner--temp.slider__inner--off
+                p.heading.heading--m Elgato Eve Degree Connected
+                p.text.text--light Выключено до&nbsp;17:00
+            div.slider__block
+              div.slider__inner.slider__inner--light.slider__inner--off
+                p.heading.heading--m LIFX Mini Day & Dusk A60 E27
+                p.text.text--light Включится в&nbsp;17:00
+            div.slider__block
+              div.slider__inner.slider__inner--light.slider__inner--on
+                p.heading.heading--m Xiaomi Mi Air Purifier 2S
+                p.text.text--light Включено
+
+      section.scenarios
+        div.section
+          h2.heading.heading--l Избранные сценарии
+          div.slider.slider--s
+            div.slider__block
+              div.slider__inner.slider__inner--light.slider__inner--on
+                p.heading.heading--m Выключить весь свет в&nbsp;доме и&nbsp;во&nbsp;дворе
+            div.slider__block
+              div.slider__inner.slider__inner--clocks.slider__inner--on
+                p.heading.heading--m Я ухожу
+
+      section.favorite
+        div.section
+          div.section-header
+            h2.heading.heading--l Избранные устройства
+            div.filter
+              a.filter-btn(href="#")
+                span.filter-active Все
+          div.slider.slider--s
+            div.slider__block.block.block--gray
+              div.slider__inner.slider__inner--light.slider__inner--on
+                p.heading.heading--m Xiaomi Yeelight LED Smart Bulb
+                p.text.text--gray Включено
+            div.slider__block.block.block--gray
+              div.slider__inner.slider__inner--clocks.slider__inner--off
+                p.heading.heading--m D-Link Omna 180 Cam
+                p.text.text--gray Включится в 17:00
+            div.slider__block.block.block--gray
+              div.slider__inner.slider__inner--clocks.slider__inner--off
+                p.heading.heading--m D-Link Omna 180 Cam
+                p.text.text--gray Включится в 17:00
+
+    footer.footer
+      div.footer__inner
+        ul.footer__nav
+          li.footer__nav-item
+            a.footer__nav-link Помощь
+          li.footer__nav-item
+            a.footer__nav-link Обратная связь
+          li.footer__nav-item
+            a.footer__nav-link Разработчикам
+          li.footer__nav-item
+            a.footer__nav-link Условия использования
+        div.copyright
+          p.copyright__date &copy; 2001&ndash;
+            span.copyright__currentyear.currentyear
+          a.copyright__link(href="https://yandex.ru" target="_blank") ООО &laquo;Яндекс&raquo;
+
+    script(src="js/bundle.js")
+

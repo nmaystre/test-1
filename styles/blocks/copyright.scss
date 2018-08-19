@@ -1,0 +1,11 @@
+.copyright {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: $gray;
+}
+
+.copyright__date {
+  margin: 0;
+  padding-right: 5px;
+}
